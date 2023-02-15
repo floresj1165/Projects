@@ -1,0 +1,29 @@
+body {
+  background-image: url(https://images7.alphacoders.com/111/thumb-1920-1114862.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+header {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+form {
+  background-color: rgba(61, 56, 56, 0.493);
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.form-group {
+  margin: 30px 30px;
+  padding-top: 10px;
+}
+
+label {
+  display: block;
+}
+textarea {
+  width: 100%;
+}

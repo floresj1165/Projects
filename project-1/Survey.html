@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form Project</h1>
+      <p id="description">Thank you for taking the time to take this survey!</p>
+    </header>
+    <form id="survey-form">
+      <div class="header-div">
+        <div class="form-group">
+          <label id="name-label">Name: </label
+          ><input required placeholder="John Smith" id="name" type="text" />
+        </div>
+        <div class="form-group">
+          <label id="email-label">Email: </label
+          ><input
+            required
+            id="email"
+            type="email"
+            placeholder="abcd@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label">Age: </label
+          ><input
+            placeholder="120"
+            id="number"
+            type="number"
+            min="12"
+            max="120"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="occupation"
+          >Which of these option best describes you?</label
+        >
+        <select name="occupation" id="dropdown">
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="recommendation-label"
+          >Would you recommend owning a dog to a friend?
+          <input
+            type="radio"
+            class="form-check-input"
+            name="recommend-radio"
+            value="definitely"
+            checked
+          />Definitely
+          <input
+            type="radio"
+            class="form-check-input"
+            name="recommend-radio"
+            value="maybe"
+          />Maybe
+          <input
+            type="radio"
+            class="form-check-input"
+            name="recommend-radio"
+            value="not-sure"
+          />Not Sure
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="why-own-dog"
+          >Why do you own a dog?
+          <select name="house-guard">
+            <option value="house-guard">House Guard</option>
+            <option value="companion">Companion</option>
+            <option value="hunting">Hunting</option>
+            <option value="dog-shows">Dog Shows</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label class="form-check-label"
+          >What are your favorite characteristics of a dog? (Check all that
+          apply)
+          <input
+            type="checkbox"
+            class="checkBoxOption"
+            name="characteristics"
+            value="child-friendly"
+          />Child friendly
+          <input
+            type="checkbox"
+            class="checkBoxOption"
+            name="characteristics"
+            value="affectionate"
+          />Affectionate
+          <input
+            type="checkbox"
+            class="checkBoxOption"
+            name="characteristics"
+            value="intelligence"
+          />Intelligent
+          <input
+            type="checkbox"
+            class="checkBoxOption"
+            name="characteristics"
+            value="loyal"
+          />Loyal
+          <input
+            type="checkbox"
+            class="checkBoxOption"
+            name="characteristics"
+            value="Energetic"
+          />Energetic
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="suggestions"
+          >Any comments or suggestions on how to take care of a dog?</label
+        >
+        <textarea
+          name="suggestions"
+          id="suggestions"
+          cols="5"
+          rows="5"
+        ></textarea>
+      </div>
+      <button id="submit" type="submit" value="submit">Submit</button>
+    </form>
+  </body>
+</html>
