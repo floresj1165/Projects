@@ -1,0 +1,136 @@
+@media screen and (max-width: 600px) {
+  *{
+    overflow: hidden;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  margin-top: 100px;
+}
+#header-img {
+  width: 200px;
+  margin-left: 10px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  min-height: 75px;
+}
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 80px;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+#nav-list {
+  list-style: none;
+}
+#nav-list .nav-item {
+  display: inline-block;
+  margin: 80px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2{
+  margin-bottom: 10px;
+}
+#email {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+#submit,button {
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#submit:hover,button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.form-div {
+  text-align: center;
+}
+.info-container {
+  display: grid;
+  grid-template-columns:100px 700px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+h4 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.title-description {
+  margin-bottom: 25px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-left: 40px;
+  margin-top: 25px;
+  font-size: 15px;
+}
+.info-logo {
+  color: orange;
+}
+.video-div {
+  display: grid;
+  place-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.buy-doge-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  column-gap: 10px;
+}
+.buy-doge-container {
+  border: solid orange;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+.buy-doge-container p, h3, h2 {
+  margin: 0px 20px;
+  margin-bottom: 40px;
+  font-style: Trebuchet, sans-serif;
+  text-align: center;
+}
+.footer-div, .copyright{
+  padding: 3px;
+  background-color: DarkSalmon;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+.footer-div p{
+  margin-right: 20px;
+  background-color: darksalmon;
+}
+.footer-div a{
+  background-color: darksalmon;
+}
